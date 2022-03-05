@@ -1,5 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
-  /* TODO: Component CSS Style goes here */
-  .line {
-    color: blue;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.topMenu {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  height: 3.75rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.topMenuContainer {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.topMenuContent {
+  min-width: auto;
+  height: 3rem;
+  color: black;
+  transition: box-shadow 250ms;
+}
+
+.rightSection {
+  display: flex;
+  float: right;
+  padding-left: 2rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 48px;
+  line-height: normal;
+  padding: 0 4px;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: flex-end;
+  -webkit-justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.links {
+  font-family: arial, sans-serif;
+  line-height: normal;
+  display: flex;
+  gap: 15px;
+  padding-right: 15px;
+  font: 13px/27px Roboto,
+  RobotoDraft,
+  Arial,
+  sans-serif;
+}
+
+.signIn {
+  margin: 0 0.5rem;
+  min-width: 96px;
+}
+
+.appIcon {
+  padding: 0.25rem
+}
